@@ -25,7 +25,7 @@ exports.createCategory = (req,res) =>{
 
 }
 
-exports.getCategory = (req,res) =>{
+exports.getCategory = (req,res) => {
     return res.json(req.category);
 
 }
@@ -54,6 +54,7 @@ exports.updateCategory = (req,res) => {
         res.json(updatedCategory);
     });
 }
+
 
 exports.deleteCategory = (req,res)=>{
     const category = req.category;  
