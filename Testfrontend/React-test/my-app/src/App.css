@@ -1,0 +1,11 @@
+body {
+  background: #881611;
+  font-size: 20px;
+
+}
+
+.logo{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
